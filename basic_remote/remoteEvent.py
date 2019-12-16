@@ -1,5 +1,6 @@
 import click
 import spytank
+import time
 
 z ="z : avancer"
 s ="s : reculer"
@@ -54,3 +55,5 @@ while True:
             spytank.droite(vitesse)
     elif lettre == "x" :
         spytank.stop()
+        
+    time.sleep(1)
